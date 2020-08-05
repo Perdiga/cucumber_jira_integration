@@ -10,7 +10,7 @@ Feature: Simple maths
     When I submit a value 10
     Then the output should be previus values plus 10
 
-  @CT-2 @OPEN
+  @CT-2 @COMPLETED
   Scenario Outline: sum a value
     Given I want to sum a value from the previus value of <previus>
     When I submit a value <valueToSum>
@@ -23,7 +23,7 @@ Feature: Simple maths
       | 20      | 0          | 20     |
     
 
-  @CT-3 @COMPLETED
+  @CT-3 @OPEN
   Scenario Outline: subtract a value
     Given I want to subtract a value from the previus value of <previus>
     When I subtract a value <valueToSubtract>
