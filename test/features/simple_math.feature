@@ -35,13 +35,14 @@ Feature: Simple maths
       | 30      | 40              | -10    |
     
 
-  @CT-4 @OPEN
+  @CT-4 @OPEN @MANUAL
   Scenario Outline: divide a value
-        Given I want to divide a value from the previus value of <previus>
-        When I divide a value <valueToDivide>
-        Then the output should be <output>
+    Given I want to divide a value from the previus value of <previus>
+    When I divide a value <valueToDivide>
+    Then the output should be <output>
     
-        Examples:
-          | previus | valueToDivide| output|
-          | 10      | 2            | 5     |
-          | 30      | 3            | 10    |
+    Examples:
+      | previus | valueToDivide | output |
+      | 10      | 2             | 5      |
+      | 30      | 3             | 10     |
+    
