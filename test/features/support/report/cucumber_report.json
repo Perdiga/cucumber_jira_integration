@@ -1,0 +1,290 @@
+[
+  {
+    "description": "  In order to do maths\n  As a developer\n  I want to hava a calculator",
+    "keyword": "Feature",
+    "name": "Simple maths",
+    "line": 2,
+    "id": "simple-maths",
+    "tags": [],
+    "uri": "test\\features\\simple_math.feature",
+    "elements": [
+      {
+        "id": "simple-maths;sum-a-value",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "sum a value",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I want to sum a number to previus value",
+            "match": {
+              "location": "test\\features\\support\\steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I submit a value 10",
+            "match": {
+              "location": "test\\features\\support\\steps.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the output should be previus values plus 10",
+            "match": {
+              "location": "test\\features\\support\\steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simple-maths;sum-a-value",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "sum a value",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I want to sum a value from the previus value of 10",
+            "match": {
+              "location": "test\\features\\support\\steps.js:21"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I submit a value 20",
+            "match": {
+              "location": "test\\features\\support\\steps.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the output should 30",
+            "match": {
+              "location": "test\\features\\support\\steps.js:25"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "simple-maths;sum-a-value",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "sum a value",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I want to sum a value from the previus value of 15",
+            "match": {
+              "location": "test\\features\\support\\steps.js:21"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I submit a value 50",
+            "match": {
+              "location": "test\\features\\support\\steps.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the output should 65",
+            "match": {
+              "location": "test\\features\\support\\steps.js:25"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "simple-maths;sum-a-value",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "sum a value",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I want to sum a value from the previus value of 20",
+            "match": {
+              "location": "test\\features\\support\\steps.js:21"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I submit a value 0",
+            "match": {
+              "location": "test\\features\\support\\steps.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the output should 20",
+            "match": {
+              "location": "test\\features\\support\\steps.js:25"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "simple-maths;subtract-a-value",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "subtract a value",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "I want to subtract a value from the previus value of 10",
+            "match": {
+              "location": "test\\features\\support\\steps.js:31"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "I subtract a value 10",
+            "match": {
+              "location": "test\\features\\support\\steps.js:35"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "the output should be 0",
+            "match": {
+              "location": "test\\features\\support\\steps.js:39"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "simple-maths;subtract-a-value",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "subtract a value",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "I want to subtract a value from the previus value of 30",
+            "match": {
+              "location": "test\\features\\support\\steps.js:31"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "I subtract a value 40",
+            "match": {
+              "location": "test\\features\\support\\steps.js:35"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "the output should be -10",
+            "match": {
+              "location": "test\\features\\support\\steps.js:39"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
