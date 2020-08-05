@@ -18,12 +18,3 @@ var options = {
 };
 
 reporter.generate(options);
-
-BehavePro({
-    "host": "https://mateuspd.atlassian.net",
-    "id": 10000,
-    "userId": "5c0e577553cd043c8c6148a3",
-    "apiKey": "1fPYbxOa3OsT9wG6TOOvD148"
-}, function () {
-    // done
-});
