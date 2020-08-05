@@ -10,6 +10,7 @@ Feature: Simple maths
     When I submit a value 10
     Then the output should be previus values plus 10
 
+  @CT-2 @OPEN
   Scenario Outline: sum a value
     Given I want to sum a value from the previus value of <previus>
     When I submit a value <valueToSum>
