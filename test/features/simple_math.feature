@@ -23,6 +23,7 @@ Feature: Simple maths
       | 20      | 0          | 20     |
     
 
+  @CT-3 @OPEN
   Scenario Outline: subtract a value
     Given I want to subtract a value from the previus value of <previus>
     When I subtract a value <valueToSubtract>
