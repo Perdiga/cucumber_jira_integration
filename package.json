@@ -4,8 +4,8 @@
   "description": "",
   "main": "app2.js",
   "scripts": {
-    "test": "./node_modules/.bin/cucumber-js test/features --format json:./test/features/support/report/cucumber_report.json",
-    "report_html": "node ./test/features/support/report/index.js"
+    "report_html": "node ./test/index.js",
+    "test": "./node_modules/.bin/cucumber-js  test/features --format json:./test/features/support/report/cucumber_report.json && npm run report_html"
   },
   "author": "",
   "license": "ISC",

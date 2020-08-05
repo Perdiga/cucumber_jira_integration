@@ -1,10 +1,9 @@
 var reporter = require('cucumber-html-reporter');
-var BehavePro = require('behavepro');
 
 var options = {
     theme: 'bootstrap',
     jsonFile: 'test/features/support/report/cucumber_report.json',
-    output: 'test/features/support/test/report/cucumber_report.html',
+    output: 'test/features/support/report/cucumber_report.html',
     reportSuiteAsScenarios: true,
     launchReport: false,
     metadata: {

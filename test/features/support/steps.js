@@ -18,7 +18,7 @@ Then('the output should be previus values plus {int}', function (output) {
 
 // ----------------------------------------------------------------
 
-Given('I want to sum a value from the previus value of {int}', function (value) {
+Given('I want to sum a value to the previus value of {int}', function (value) {
   calculator.value = value;
 });
 
@@ -28,7 +28,7 @@ Then('the output should {int}', function (output) {
 
 
 // ----------------------------------------------------------------
-Given('I want to subtract a value from the previus value of {int}', function (value) {
+Given('I want to subtract a value to the previus value of {int}', function (value) {
   calculator.value = value;
 });
 

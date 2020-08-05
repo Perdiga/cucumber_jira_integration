@@ -2,7 +2,7 @@ Feature: Simple maths
 
   In order to do maths
   As a developer
-  I want to hava a calculator
+  I want to have a calculator
 
   Scenario: sum a value
     Given I want to sum a number to previus value
@@ -10,7 +10,7 @@ Feature: Simple maths
     Then the output should be previus values plus 10
 
   Scenario Outline: sum a value
-    Given I want to sum a value from the previus value of <previus>
+    Given I want to sum a value to the previus value of <previus>
     When I submit a value <valueToSum>
     Then the output should <output>
 
@@ -20,9 +20,8 @@ Feature: Simple maths
       | 15      | 50         | 65     |
       | 20      | 0          | 20     |
 
-
   Scenario Outline: subtract a value
-    Given I want to subtract a value from the previus value of <previus>
+    Given I want to subtract a value to the previus value of <previus>
     When I subtract a value <valueToSubtract>
     Then the output should be <output>
 
