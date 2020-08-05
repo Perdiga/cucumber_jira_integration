@@ -4,7 +4,7 @@ Feature: Simple maths
   As a developer
   I want to hava a calculator
 
-  @CT-2 @OPEN
+  @CT-2 @COMPLETED
   Scenario: sum a value
     Given I want to sum a number to previus value
     When I submit a value 10
