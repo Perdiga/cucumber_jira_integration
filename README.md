@@ -151,7 +151,8 @@ The BDD because it is written in English makes it easy for everyone to understan
 
 ## Dojo branch
 
-You can use this branch to practice
+You can use this branch to practice.
+
 Follow the TODOs to finish the challenge
 
 - Branch: feature/dojo
