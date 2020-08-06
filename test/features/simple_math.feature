@@ -35,7 +35,7 @@ Feature: Simple maths
       | 30      | 40              | -10    |
     
 
-  @CT-4 @WIP
+  @CT-4 @WIP @COMPLETED
   Scenario Outline: divide a value
     Given I want to divide a value to he previus value of <value>
     When I divide a value <valueToDivide>
