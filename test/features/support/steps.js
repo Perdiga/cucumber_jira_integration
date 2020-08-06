@@ -37,5 +37,19 @@ When('I subtract a value {int}', function (valueToSubtract) {
 });
 
 Then('the output should be {int}', function (output) {
-  expect(calculator.getValue()).to.be.equal(output);;
+  expect(calculator.getValue()).to.be.equal(output);
+});
+
+//-------------------------------------------------------
+Given('I want to divide a value to he previus value of {int}', function (valueToDivide) {
+  calculator.value = valueToDivide;
+  //return 'pending';
+});
+
+When('I divide a value {float}', function (value) {
+  calculator.divide(value);
+});
+
+Then('the output should be Infinity', function () {
+  expect(calculator.getValue()).to.be.equal(Infinity);
 });

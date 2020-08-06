@@ -9,6 +9,10 @@ module.exports = function () {
         this.value = parseInt(this.value) - parseInt(valueToSubtract);
     }
 
+    this.divide = function (valueToDivide) {
+        this.value = this.value / valueToDivide;
+    }
+
     this.getValue = function () {
         return this.value;
     }
