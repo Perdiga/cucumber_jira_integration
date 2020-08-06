@@ -53,3 +53,18 @@ When('I divide a value {float}', function (value) {
 Then('the output should be Infinity', function () {
   expect(calculator.getValue()).to.be.equal(Infinity);
 });
+
+// TODO: 03 - Copy the generated Givem step here 
+// TODO: 06 - Implement the test for Givem step (you should prepare the context)
+
+// TODO: 04 - Copy the generated When step here 
+// TODO: 07 - Implement the test for When step (you should implement the multiplier action)
+
+// TODO: 05 - Copy the generated Then step here 
+// TODO: 09 - Implement the test for Then step (you should test if what you expected occoured)
+
+// TODO: 10 - Run npm test. All tests should pass
+// TODO: 11 - Open the html report file to check you live documentation
+
+
+

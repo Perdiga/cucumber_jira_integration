@@ -13,6 +13,8 @@ module.exports = function () {
         this.value = this.value / valueToDivide;
     }
 
+    //TODO: 08 - Create a function that receive a value e use this value to multiplier the calculator value
+
     this.getValue = function () {
         return this.value;
     }

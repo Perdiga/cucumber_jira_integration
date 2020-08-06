@@ -48,3 +48,5 @@ Feature: Simple maths
       | 10    | 2.5           | 4        |
       | 10    | 0             | Infinity |
 
+// TODO: 01 - Create a Scenario that represent a multiplier action, you can use the ones above as examples
+// TODO: 02 - Run npm test. Cucumber will geranate the steps that you need to implement.
